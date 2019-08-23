@@ -2,7 +2,7 @@ import React from 'react';
 import './header.style.css';
 import CustomButton from '../custom-button/custom.button';
 import {Link} from 'react-router-dom';
-import Logo from '../assets/kriida.png'
+import Logo from '../assets/kriida.png';
 
  const Header=()=> {
     return (
@@ -10,9 +10,9 @@ import Logo from '../assets/kriida.png'
             <div className="nav_container">
             <div className="item_container"> 
                     <ul className="navigation ">
-                        <li>About Us</li>
-                        <li>Stats</li>
-                        <li>Events</li>
+                        <Link to="/about-us"><li>About Us</li></Link> 
+                        <Link to="/stats"><li>Stats</li></Link>
+                        <Link to="/events"><li>Events</li></Link>
                     </ul>
                 
                 </div>

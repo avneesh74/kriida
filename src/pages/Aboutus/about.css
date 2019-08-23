@@ -1,0 +1,28 @@
+.aboutus-wrapper{
+    padding: 2em;
+}
+
+.aboutus-container{
+    position: relative;
+    display: flex;
+}
+
+.about-image{
+    position: relative;
+    max-width: 100%;
+    bottom: 80px;
+}
+
+.image-side{
+    position: relative;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.content-side{
+    position: relative;
+    font-size: larger;
+    padding-top: 19px;
+    line-height: 42px;
+    text-align: justify;
+}

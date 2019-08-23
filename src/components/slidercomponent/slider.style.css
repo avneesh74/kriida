@@ -1,6 +1,6 @@
 .slider-wrapper {
     width: 100%;
-    height: 512px;
+    height: 470px;
     background: radial-gradient(#e0e0e0, transparent);
 }
 
@@ -53,4 +53,6 @@
 .banner{
     position: relative;
     max-width: 100%;
+    box-shadow: 3px 13px 6px 6px #ccc;
+
 }

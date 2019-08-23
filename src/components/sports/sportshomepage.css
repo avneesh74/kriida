@@ -1,0 +1,31 @@
+.sports-wrapper{
+    padding: 0px 74px 110px 74px;
+}
+
+.card-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.single-card{
+    position: relative;
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 1px 2px 8px 1px #fddb00;
+    cursor: pointer;
+}
+
+.single-card:hover{
+    box-shadow: 3px 3px 5px -3px #000000;
+
+}
+
+.sports-name{
+    padding-top: 22px;
+    font-size: larger;
+    font-weight: 600;
+    float: right;
+}

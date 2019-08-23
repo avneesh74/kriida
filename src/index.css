@@ -9,3 +9,12 @@ body {
    font-family: 'Shadeerah Demo';
    src: local('Shadeerah Demo'), url(./components/assets//fonts/Shadeerah_Demo.woff) format('woff');
  }
+
+ a {
+  color: #000000;
+ }
+
+ a:hover{
+  color: #ffffff;
+  text-decoration: none
+ }

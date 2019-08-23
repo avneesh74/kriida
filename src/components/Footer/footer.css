@@ -1,0 +1,54 @@
+.footer-wrapper {
+    position: relative;
+    border-top: 2px solid #feed82;
+    box-shadow: 1px 1px 4px 2px black;
+    background: radial-gradient(#fddb00, transparent);
+}
+
+.footer-container{
+    padding: 23px 23px 1px 23px;
+}
+
+.single-item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    position: relative;
+    padding: 2em;
+}
+
+.social-item{
+    position: relative;
+    display: flex;
+}
+
+.single-social-item{
+    padding:5px;
+}
+
+.social-logo{
+    width: 46px;
+    border: 2px solid black;
+    border-radius: 22px;
+    box-shadow: 1px 1px 4px 2px black;
+}
+
+.social-logo:hover{
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px 2px white;
+}
+
+.item{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.copyright{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}

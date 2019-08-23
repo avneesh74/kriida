@@ -1,12 +1,27 @@
 import React from 'react';
+import {Switch, Route} from 'react-router-dom';
 import Header from './components/header-components/header.component';
-import Slider from './components/slidercomponent/slider.component';
+import Homepage from './pages/Homepage/pages';
+import Aboutpage from './pages/Aboutus/about-us';
+import StatsSports from './components/sports/sportspage/sportsinnercomponent';
+import Footer from './components/Footer/footer';
+import PrivacyPolicy from './pages/privacypolicy/privacypolicy';
+import TermsAndCondition from './pages/terms-and-condition/terms';
+
 
 function App() {
   return (
     <div>
+      
         <Header/>
-        <Slider/>
+          <Switch>
+            <Route exact path="/" component={Homepage}/>
+            <Route exact path="/stats" component={StatsSports}/>
+            <Route exact path="/about-us" component={Aboutpage}/>
+            <Route exact path="/privacy-policy" component={PrivacyPolicy}/>
+            <Route exact path="/terms-and-condition" component={TermsAndCondition}/>
+          </Switch>
+        <Footer/>
     </div>
   );
 }

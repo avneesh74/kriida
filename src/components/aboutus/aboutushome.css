@@ -1,0 +1,34 @@
+.about-wrapper{
+    padding: 40px 116px 0px 74px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container{
+    position: relative;
+    display: flex;
+}
+
+.text-area{
+    position: relative;
+    max-width: 50%;
+}
+
+.image-area{
+    position: relative;
+    max-width: 50%;
+    bottom: 118px;
+}
+
+.image{
+    position: relative;
+    width: 113%;
+    box-shadow: 3px 3px 5px -3px #fddb00;
+}
+
+
+.text-area{
+    padding-top: 14px;
+    font-size: larger;
+    text-align: justify;
+}

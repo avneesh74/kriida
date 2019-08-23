@@ -2,6 +2,7 @@ import React from 'react';
 import SliderText from './slidertext.component';
 import SliderImage from '../assets/images/featured_image.png';
 import './slider.style.css';
+import Fade from 'react-reveal/Fade';
 
  const Slider=()=> {
     return (
@@ -12,7 +13,9 @@ import './slider.style.css';
             <div className="image-wrapper">
                 
                 <div className="image-container">
-                    <img src={SliderImage} alt="banner" className="banner"/>
+                    <Fade left>
+                        <img src={SliderImage} alt="banner" className="banner"/>
+                    </Fade>
                 </div>
             </div>
             </div>

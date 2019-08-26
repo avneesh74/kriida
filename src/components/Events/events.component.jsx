@@ -1,6 +1,7 @@
 import React from 'react'
 import './events.css';
 import HeadingText from '../top-features/headingtext.component';
+import {Link} from 'react-router-dom';
 
 const Events=()=> {
     return (
@@ -11,6 +12,12 @@ const Events=()=> {
                         title='Our'
                         text='Events'
                     />
+                    <div className="option-box">
+                        
+                        <div><Link>Upcoming</Link></div>
+                        <div><Link>Results</Link></div>
+                        
+                    </div>
                 </div>
                 <div className="matches-wrapper">
                     <div className="sports-name">

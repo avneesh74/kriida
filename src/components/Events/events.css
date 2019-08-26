@@ -53,3 +53,20 @@ img {
     height: 28px;
     width: 35px;
 }
+
+.top-area{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.option-box{
+    position: relative;
+    display: flex;
+    line-height: 55px;
+    border-radius: 13px;
+    justify-content: space-around;
+    background: #fddb00;
+    height: 54px;
+}

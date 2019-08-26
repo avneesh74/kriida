@@ -1,0 +1,55 @@
+.events-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.evnts-wrapper{
+    position: relative;
+    padding: 3em;
+}
+
+.matches-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.show-matches{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 20px;
+    top: 10px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.team-group{
+    position: relative;
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.vs{
+    position: relative;
+    padding: 1em;
+    background: #fddb00;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.matches-logo{
+    height: 28px;
+    width: 35px;
+}

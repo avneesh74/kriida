@@ -1,6 +1,7 @@
 import React from 'react'
 import './sportshomepage.css';
 import Jump from 'react-reveal/Jump';
+import {Link} from 'react-router-dom';
 
 
  const SportsCard=()=> {
@@ -9,23 +10,27 @@ import Jump from 'react-reveal/Jump';
         {
             id:'1',
             name:'FOOTBALL',
-            imgUrl:'http://kriida.com/sports_image/footbalicon.png'
+            imgUrl:'http://kriida.com/sports_image/footbalicon.png',
+            link:'/stats/football'
         },
         {
             id:'2',
             name:'BASKETBALL',
-            imgUrl:'http://kriida.com/sports_image/basketball.png'
+            imgUrl:'http://kriida.com/sports_image/basketball.png',
+            link:'#'
         },
         {
             id:'3',
             name:'CRICKET',
-            imgUrl:'http://kriida.com/sports_image/cricketicon.png'
+            imgUrl:'http://kriida.com/sports_image/cricketicon.png',
+            link:'#'
         },
         
         {
             id:'4',
             name:'TENNIS',
-            imgUrl:'http://kriida.com/sports_image/tennisicon.png'
+            imgUrl:'http://kriida.com/sports_image/tennisicon.png',
+            link:'#'
         },
        
     ]
@@ -36,14 +41,16 @@ import Jump from 'react-reveal/Jump';
                  {
                         sports.map((sport)=>
                         <Jump>
-                        <div className="single-card">
-                            <div className="image-conatiner" id={sport.id}>
-                              <img src={sport.imgUrl} alt="icon"/>
-                            </div>
-                            <div className="sports-name">
-                                {sport.name}
-                            </div>
-                        </div>
+                            <Link to={sport.link}>
+                                <div className="single-card">
+                                    <div className="image-conatiner" id={sport.id}>
+                                    <img src={sport.imgUrl} alt="icon"/>
+                                    </div>
+                                    <div className="sports-name">
+                                        {sport.name}
+                                    </div>
+                                </div>
+                            </Link>
                         </Jump>
                         )
                     }

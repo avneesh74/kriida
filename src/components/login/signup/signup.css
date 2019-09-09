@@ -1,0 +1,42 @@
+.signup-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+}
+
+.single-side{
+    position: relative;
+    flex-basis: 50%;
+}
+
+.signupform-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.signup{
+    padding: 6px 60px 6px 60px;
+    font-size: large;
+    font-weight: 600;
+    background: #fddb00;
+    border: white 2px solid;
+    border-radius: 11px;
+}
+
+.text-highlight{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.span-text {
+    position: relative;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 60px;
+    font-weight: 700;
+    border: 2px solid white;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}

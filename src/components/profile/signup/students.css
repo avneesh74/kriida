@@ -1,0 +1,55 @@
+.container-students-registraions{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    justify-content: center;
+}
+
+.form-wrapper{
+    background:white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    flex-direction: column;
+}
+
+.form-control{
+    width: 100%;
+    padding: 1em;
+}
+
+.date-control{
+    padding-top: 33px!important;
+    width: 100%;
+}
+
+.inner-container{
+    display: flex
+}
+
+.select-text{
+    color: black;
+    position: relative;
+    top: 23px;
+}
+
+.react-tel-input .selected-flag .arrow{
+    display: none
+}
+
+.react-tel-input input[type=text], .react-tel-input input[type=tel]{
+    width: 479px!important;
+}
+.custom-button-class{
+    display: flex;
+    padding-top: 4em;
+    outline: none;
+    position: relative;
+    left: 30%;
+}
+.students-form{
+    border-top: 18px solid #fddb00;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: -9px 11px 7px 3px #fddb00;
+}

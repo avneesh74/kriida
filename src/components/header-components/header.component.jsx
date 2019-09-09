@@ -3,6 +3,7 @@ import './header.style.css';
 import CustomButton from '../custom-button/custom.button';
 import {Link} from 'react-router-dom';
 import Logo from '../assets/kriida.png';
+import Logout from '../login/signup/logout';
 
  const Header=()=> {
     return (
@@ -23,9 +24,12 @@ import Logo from '../assets/kriida.png';
                  </div>
                 
                 <div className="button-wrapper">
-                    <CustomButton >
-                        Login/Register
-                    </CustomButton>
+                <Link to="/signup">
+                        <CustomButton >
+                            Login/Register
+                        </CustomButton>
+                </Link>
+                <Logout/>
                 </div>
             </div>
         </div>

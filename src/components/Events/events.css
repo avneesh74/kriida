@@ -64,9 +64,40 @@ img {
 .option-box{
     position: relative;
     display: flex;
-    line-height: 55px;
+    line-height: 48px;
     border-radius: 13px;
     justify-content: space-around;
     background: #fddb00;
-    height: 54px;
+    height: 46px;
+    width: 9%;
 }
+
+.upcoming-matches{
+    position: relative;
+    width: 50%;
+    right: 13px;
+    background: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.upcoming-matchesinner {
+    position: relative;
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    width: 162%;
+    right: 14px;
+    width: 253%;
+    right: 34px
+}
+
+.option-box:hover{
+    background: black;
+    color:yellow;
+    border: 1px solid yellow;
+}
+
+

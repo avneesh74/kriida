@@ -3,6 +3,7 @@ import './events.css';
 import HeadingText from '../top-features/headingtext.component';
 import {Link} from 'react-router-dom';
 
+
 const Events=()=> {
     return (
         <div className="events-wrapper">
@@ -12,12 +13,14 @@ const Events=()=> {
                         title='Our'
                         text='Events'
                     />
+                    
                     <div className="option-box">
-                        
-                        <div><Link>Upcoming</Link></div>
-                        <div><Link>Results</Link></div>
-                        
+                        <Link to="/results"><div className="upcoming-matchesinner">
+                                Results
+                            </div>
+                            </Link>
                     </div>
+                    
                 </div>
                 <div className="matches-wrapper">
                     <div className="sports-name">
